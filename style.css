@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #826251;
+  background-color: #FFE8D1;
+}
+
+header {
+  text-align: center;
+  background-color: #568EA3;
+  color: #FFFFFF;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #68C3D4;
+}
+
+#skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #68C3D4;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #826251;
+  border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+  background-color: #568EA3;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #826251;
+  color: #FFFFFF;
+  padding: 10px;
+}
